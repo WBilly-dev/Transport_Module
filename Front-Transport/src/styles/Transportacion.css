@@ -1,0 +1,29 @@
+.data-result {
+    color: black;
+    background-color: #f6f6f9;
+    border-radius: 25px;
+}
+
+.plot-data{
+    border-radius: 25px;
+    color: black;
+    background-color: #f6f6f9;
+
+}
+
+#data-deploy{
+    position: relative;
+    background-color: #f6f6f9;
+    max-height: 800px;
+    height: 600px;
+    width: 71%;
+    margin-left: 18%;
+    color: rgb(216, 66, 66);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    transition: all 1s ease;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

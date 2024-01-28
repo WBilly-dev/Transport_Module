@@ -1,0 +1,57 @@
+.features{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 66rem;
+    gap: 1.4rem;
+    margin-left: 264px;
+    text-align: center;
+}
+
+.features .card:nth-child(5){
+    grid-column: span 2;
+}
+
+.features .card{
+    background-color:whitesmoke ;
+    padding: 1rem;
+    border: #c63725;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.features .card:hover{
+    background-color: #c638251f;
+    border-color: #031c3a;
+}
+
+.features .card span{
+    display: inline-block;
+    background-color:#c63725 ;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.features .card h4{
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.features .card a{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover{
+    color: #1e40af;
+}
